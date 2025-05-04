@@ -12,7 +12,8 @@ You also need access to the HuggingFace Hub, using your account token, for downl
 Mistral-7B and Llama-3 are both gated models and require you to request access for use on HuggingFace.
 ~~~
 In order to download the MedQuAD dataset from Kaggle, you will need to have your Kaggle API token downloaded. 
-
+~~~
+The MedlinePlus page will archive the XML files after several days. For best results, change the date in the URL to the current date using YYYY-MM-DD format
 ## Data Sources
 ### MedQuAD CSV
 A dataset of medical QA pairs.
